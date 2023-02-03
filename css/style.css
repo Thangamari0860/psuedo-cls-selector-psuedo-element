@@ -1,0 +1,55 @@
+.pseudotable {
+  width:100%;
+  border-collapse: collapse;
+  border-color:blue;
+  font-size:20px;
+}
+
+.class3 {
+	
+}
+
+td {
+   text-align: center;
+    padding: 8px;
+       }
+	   
+	   tr:nth-child(odd)  {
+    background-color:blue
+	  }
+    th {
+        padding: 8px;
+		background-color:gray;
+	  }	
+	  
+.android::first-letter {
+	color:red;
+}
+
+.android1::first-line {
+	color:yellow;
+}
+.class3::before {
+   content: url('https://www.iconpacks.net/icons/2/free-icon-location-pin-2965.png');
+   
+}
+
+.class4::after {
+   content: url('https://www.iconpacks.net/icons/1/free-icon-mail-1008.png');
+}
+.class4:focus {
+   color:red;
+   background-color:cyan;
+   
+}
+.smlink:hover {
+	transform:scale(1.8);
+}
+
+a:visited {
+	  color:pink;
+}
+.happy:link {
+	color:green;
+	
+}
